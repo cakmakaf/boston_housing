@@ -7,17 +7,6 @@ Obtain an optimal model based on a statistical data to estimate the best price f
 
 In this project, we applied basic machine learning techniques on data accumulated for housing prices in the city o Boston, Massachusetts area. We mainly make a prediction about the selling price of a new home. First, we disconered the data to obtain substantial features and descriptive statistics about the dataset. Secondly, we appropriately seperate the data into testing and training subsets, and identified a convenient performance metric for the main problem. We then investigated efficiency graphs for a learning algorithm with alternating parameters and training dataset sizes. This allowed us to choose the optimal model that best generalizes for the hidden data. Finally, we tested the optimal model that we found on a new sample and compare the predicted price to our values.
 
-This project requires **Python 2.7**(if you complete this project in Python 3.x, you will have to update the code in various places including all relevant print statements) and the following Python libraries installed:
-
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
-
 ### Files
 
 The project has 4 files:
