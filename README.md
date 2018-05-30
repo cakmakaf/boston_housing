@@ -1,8 +1,11 @@
-# Machine Learning Engineer Nanodegree
-# Model Evaluation and Validation
-## Project: Predicting Boston Housing Prices
 
-### Install
+## Predicting Boston Housing Prices
+
+Obtain an optimal model based on a statistical data to estimate the best price for a customer's house.
+
+### Purpose
+
+In this project, we applied basic machine learning techniques on data accumulated for housing prices in the city o Boston, Massachusetts area. We mainly make a prediction about the selling price of a new home. First, we disconered the data to obtain substantial features and descriptive statistics about the dataset. Secondly, we appropriately seperate the data into testing and training subsets, and identified a convenient performance metric for the main problem. We then investigated efficiency graphs for a learning algorithm with alternating parameters and training dataset sizes. This allowed us to choose the optimal model that best generalizes for the hidden data. Finally, we tested the optimal model that we found on a new sample and compare the predicted price to our values.
 
 This project requires **Python 2.7**(if you complete this project in Python 3.x, you will have to update the code in various places including all relevant print statements) and the following Python libraries installed:
 
@@ -15,32 +18,27 @@ You will also need to have software installed to run and execute a [Jupyter Note
 
 If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
 
+### Files
+
+The project has 4 files:
+
+project_description.md: Explain the project in detail
+boston_housing.ipynb: This is the main file where we contribute our work for the project.
+housing.csv: The dataset.
+visuals.py: This Python script includes helper functions to create the required visualizations.
+
 ### Code
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+You can see the results when you click on boston_housing.ipynb from your browser. 
 
-### Run
+### Execution
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
+To execute the code you need Python 3.x, and the following Python libraries: 
 
-```bash
-ipython notebook boston_housing.ipynb
-```  
-or
-```bash
-jupyter notebook boston_housing.ipynb
-```
+NumPy
+pandas
+scikit-learn
+matplotlib
+You will also need to have software installed to run and execute a Jupyter Notebook.
 
-This will open the Jupyter Notebook software and project file in your browser.
-
-### Data
-
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
-
-**Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
-
-**Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+If you do not have Python installed yet, it is highly recommended that you install the Anaconda distribution of Python, which already has the above packages and more included. Make sure that you select the Python 3.x installer and not the Python 2.7 installer. 
