@@ -25,7 +25,7 @@ You can see the results when you click on boston_housing.ipynb from your browser
 
 ### Execution
 
-To execute the code you need Python 3.x, and the following Python libraries: 
+To execute the code you need Python 3.#, and the following Python libraries: 
 
 NumPy, 
 
